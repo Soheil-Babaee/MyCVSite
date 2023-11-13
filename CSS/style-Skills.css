@@ -1,0 +1,263 @@
+@font-face {
+    font-family: "Aviny";
+    src: url(../Fonts/Aviny.eot),
+    url(../Fonts/Aviny.svg),
+    url(../Fonts/Aviny.ttf),
+    url(../Fonts/Aviny.woff),
+    url(../Fonts/Aviny.woff2);
+  }
+  
+  @font-face {
+    font-family: "vazir";
+    src: url(../Fonts/Vazir.eot),
+    url(../Fonts/Vazir.svg),
+    url(../Fonts/Vazir.ttf),
+    url(../Fonts/Vazir.woff),
+    url(../Fonts/Vazir.woff2);
+  
+  }
+  
+  @font-face {
+    font-family: "shabnam";
+    src: url(../Fonts/Shabnam-Bold.eot),
+    url(../Fonts/Shabnam-Bold.svg),
+    url(../Fonts/Shabnam-Bold.ttf),
+    url(../Fonts/Shabnam-Bold.woff),
+    url(../Fonts/Shabnam-Bold.woff2);
+    
+  
+  }
+  body{
+    background-color: #aa946e;
+    margin: 0;
+    padding: 0;
+  
+  }
+    /* start code CSS scrollbar and selector */
+  ::-webkit-scrollbar{
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track{
+  background-color: rgb(100, 100, 100);
+  }
+  ::-webkit-scrollbar-thumb{
+  background-color: #473311;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #553c12;
+  }
+  ::selection{
+    color: black;
+    background-color: #83550d;
+  }
+  /* end code CSS scrollbar and selector */
+ /* start code CSS navbar */
+ .nav{
+  display: none;
+}
+.nav-links{
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #765827;
+  padding: 20px 15px;
+  box-shadow: 5px 5px 10px black;
+  width: auto;
+  margin: auto;
+  margin-top: 1%;
+  font-family: "vazir"; 
+  z-index: 1;
+}
+  
+  .nav-links li{
+  list-style: none;
+  margin: 0 12px;
+  padding-right: 50px;
+  
+  }
+  .nav-links li a{
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+  
+  }
+  .nav-links li a:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: rgb(165, 164, 164);
+  border-radius: 12px;
+  transition: all 0.4s ease;
+  
+  }
+  .nav-links li a:hover:before{
+  width: 100%;
+  }
+  .nav-links li.center a:before{
+  left: 50%;
+  transform: translateX(-50%);
+  }
+/* end code CSS navbar */
+
+
+/* start code CSS progress bars */
+.maindiv_progress{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 97%;
+  background-color: #856326;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.h5_skill{
+  font-family: "shabnam";
+  padding-top: 2%;
+  text-align: center;
+  text-shadow: 1px 1px 30px black;
+}
+
+.txt-all-progress{
+  color: black !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  background-color: #463417 !important;
+}
+
+.all-progress{
+  background-color: rgb(194, 193, 193);
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px !important;
+  height: 35px;
+  width: 90%;
+-webkit-animation: all-tag 1s;
+}
+@keyframes all-tag{
+
+  0%{
+    width: 0%;
+
+  }
+
+  50%{
+    width: 99%;
+  }
+}
+
+/* end code CSS progress bars */
+
+
+/* Start CSS code media query */
+
+@media screen and (min-width: 535px) and (max-width: 700px){
+  .nav-links li a{
+    font-size: 10px;
+  }
+  .telegram-icon{
+    width: 15px;
+    height: 15px;
+  }
+  .instagram-icon{
+    width: 15px;
+    height: 15px;
+  }
+  }
+@media screen and (min-width: 300px) and (max-width: 580px){
+
+  .txt-all-progress{
+    font-size: 15px;
+    
+  }
+  .adobe-txt{
+    font-size: 13px !important;
+  }
+  .english-txt{
+    font-size: 10px !important;
+  }
+  .csharp-txt{
+    font-size: 13px !important;
+  }
+  .nav{
+    position: static !important;
+    background-color: #aa946e !important;
+    display: block;
+    margin-bottom: 5%;
+  }
+  .headercanvas-text{
+    color: red;
+  }
+  .text-menu{
+    font-family: "shabnam";
+  }
+  .bodyofcanvas{
+    background-color: #83632c !important;
+    text-align: center;
+  
+  }
+  .headercanvas{
+    background-color: #83632c !important;
+  
+  }
+  .a-skill{
+    color: black;
+    text-decoration: none;
+    font-family: "vazir";
+    font-size: 20px;
+  }
+  .a-contactus{
+    color: black;
+    text-decoration: none;
+    font-family: "vazir";
+    font-size: 20px;
+  }
+  .a-telegram{
+    color: black;
+    text-decoration: none;
+    font-family: "vazir";
+    font-size: 20px;
+  }
+  .a-instagram{
+    color: black;
+    text-decoration: none;
+    font-family: "vazir";
+    font-size: 20px;
+  }
+  .li-skill{
+    background-color: #af7d25 !important;
+    margin-bottom: 3%;
+    border-radius: 20px;
+  }
+  .li-contactus{
+    background-color: #af7d25 !important;
+    margin-bottom: 3%;
+    border-radius: 20px;
+  
+  }
+  .li-telegram{
+    background-color: #af7d25 !important;
+    margin-bottom: 3%;
+    border-radius: 20px;
+  
+  }
+  .li-instagram{
+    background-color: #af7d25 !important;
+    margin-bottom: 3%;
+    border-radius: 20px;
+  
+  }
+  .nav-links{
+    display: none;
+  }
+}
+
+/* End CSS code media query */

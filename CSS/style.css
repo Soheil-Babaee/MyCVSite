@@ -1,0 +1,758 @@
+
+@font-face {
+    font-family: "vazir";
+    src: url(../Fonts/Vazir.eot),
+    url(../Fonts/Vazir.ttf),
+    url(../Fonts/Vazir.woff),
+    url(../Fonts/Vazir.woff2);
+  }
+  
+  @font-face {
+    font-family: "shabnam";
+    src: url(../Fonts/Shabnam-Bold.eot),
+    url(../Fonts/Shabnam-Bold.ttf),
+    url(../Fonts/Shabnam-Bold.woff),
+    url(../Fonts/Shabnam-Bold.woff2);
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #aa946e;
+
+  }
+  /* start code CSS scrollbar and selector */
+  ::-webkit-scrollbar{
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track{
+  background-color: rgb(100, 100, 100);
+  }
+  ::-webkit-scrollbar-thumb{
+  background-color: #473311;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #553c12;
+  }
+  ::selection{
+    color: black;
+    background-color: #83550d;
+  }
+  /* end code CSS scrollbar and selector */
+  /* start code CSS showname */
+  .div-showname{
+    max-width: 100%;
+    height: auto;
+    background-color: #b3812c;
+    text-align: center;
+    font-family: "shabnam";
+    font-size: 18px;
+  }
+  /* end code CSS showname */
+
+  /* start code CSS navbar */
+  .nav{
+    display: none;
+  }
+  .nav-links{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #765827;
+    padding: 20px 15px;
+    box-shadow: 5px 5px 10px black;
+    width: auto;
+    margin: auto;
+    margin-top: 1%;
+    font-family: "vazir"; 
+    z-index: 1;
+  }
+    
+    .nav-links li{
+    list-style: none;
+    margin: 0 12px;
+    padding-right: 50px;
+    
+    }
+    .nav-links li a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+    
+    }
+    .nav-links li a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: rgb(165, 164, 164);
+    border-radius: 12px;
+    transition: all 0.4s ease;
+    
+    }
+    .nav-links li a:hover:before{
+    width: 100%;
+    }
+    .nav-links li.center a:before{
+    left: 50%;
+    transform: translateX(-50%);
+    }
+  /* end code CSS navbar */
+
+  /* start code CSS div-right */
+  
+  .div-right{
+    background-color: #ac843f;
+    margin-top: 2%;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #83632c , -5px -5px 10px #83632c;
+    display: table;
+    margin-right: 1%;
+    float: right;
+    text-align: center;
+   
+
+  }
+  .div-right img{
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin-top: 6%;
+    border: solid 0.5px black;
+    pointer-events: none; 
+    }
+    .a-name{
+      color: black;
+      font-family: "shabnam";
+    }
+    #span-name{
+      color: rgb(179, 21, 21);
+      font-family: "shabnam";
+    }
+    .age{
+      color: black;
+      font-family: "vazir";
+    }
+    .age span{
+      color: rgb(179, 21, 21);
+    }
+    .sex{
+      color: black;
+      font-family: "vazir";
+    }
+    .sex span{
+      color: rgb(179, 21, 21);
+    }
+    .Marital-status{
+      color: black;
+      font-family: "vazir";
+    }
+    .Marital-status span{
+      color: rgb(179, 21, 21);
+    }
+    .education{
+      color: black;
+      font-family: "vazir";
+    }
+    .education span{
+      color: rgb(179, 21, 21);
+    }
+    .city{
+      color: black;
+      font-family: "vazir";
+    }
+    .city span{
+      color: rgb(179, 21, 21);
+    }
+    .phone-number{
+      color: black;
+      font-family: "vazir";
+    }
+    .phone-number a{
+      color: rgb(179, 21, 21);
+    }
+    .email{
+      color: black;
+      font-family: "vazir";
+    }
+    .email a{
+      color: rgb(179, 21, 21);
+    }
+    
+
+  /* end code CSS div-right */
+
+/* start code CSS div-center */
+.div-center{
+  width: 65%;
+  height: auto;
+  background-color: #AA8B56;
+  margin-top: 2%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #9e7b3f , -5px -5px 10px #775c2e;
+  margin-right: 33%;
+  display: table;
+  }
+
+.div-center h1{
+  
+  font-family:  "shabnam" ;
+  text-shadow: 1px 1px 20px rgb(0, 0, 0);
+  padding-right: 2%;
+  padding-top: 1%;
+
+}
+
+.div-center p{
+
+  font-family: "vazir";
+  color: white;
+  padding-right: 3%;
+  font-size: 18px;
+
+}
+.div-right span{
+
+color: rgb(179, 21, 21);
+
+}
+
+.div-center span{
+
+  color: rgb(179, 21, 21);
+
+}
+
+.cv-image{
+
+  width: 40%;
+  height: 40%;
+  pointer-events: none; 
+  padding-top: 1%;
+  margin-right: 30%;
+ 
+  
+  }
+  .Work-samples{
+    font-family: "vazir";
+   text-align: center;
+   color: white;
+   margin-bottom: 5%;
+   margin-top: 5%;
+
+   
+  }
+  
+  /* .lightbox-div-demo{
+    display: none;
+  } */
+  .lightbox-div{
+    background-color: rgba(78, 78, 78,0.9);
+    width: 100%;
+    height: calc(100%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    -webkit-animation: lightbox 1s;
+    -moz-animation: lightbox 1s;
+        -ms-animation: lightbox 1s;
+        -o-animation: lightbox 1s;
+
+  }
+  @keyframes lightbox {
+    1%{
+      transform: scaleX(0);
+    }
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .cloes-btn-class{
+    margin-right: 2%;
+    margin-top: 1%;
+    background-color: red;
+    width: 10%;
+    height: 4%;
+  }
+  
+  .cv-image-lightbox-demo{
+    display: none;
+
+  }
+/* end code CSS div-center */
+
+
+/* start code CSS div copyright */
+.div-copyright{
+  background-color: #DFA878;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  margin-top: 2%;
+}
+.div-copyright p{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "vazir";
+}
+.div-copyright p span{
+  color: rgb(179, 21, 21);
+}
+/* end code CSS div copyright */
+
+
+/*  start CSS code div-input-name and show gray back */
+  .input-name-div-demo-ver1{
+    display: none;
+    width: 50%;
+    text-align: center;
+    background-color: #b3812c;
+    height: auto;
+    position: fixed;
+    right: 22%;
+    top: 40%;
+    border-radius: 30px;
+    z-index: 3;
+    border: 5px solid #e0ba77;
+    -webkit-animation: div-input 0.6s;
+    -moz-animation: div-input 0.6s;
+    -o-animation: div-input 0.6s;
+    -ms-animation: div-input 0.6s;
+
+  }
+
+  #div-loading{
+    width: 50%;
+    text-align: center;
+    background-color: #b3812c;
+    height: auto;
+    position: fixed;
+    right: 22%;
+    top: 40%;
+    border-radius: 30px;
+    z-index: 3;
+    border: 5px solid #e0ba77;
+    -webkit-animation: div-input 0.6s;
+    -moz-animation: div-input 0.6s;
+    -o-animation: div-input 0.6s;
+    -ms-animation: div-input 0.6s;
+  }
+  .Success-p{
+    padding-top: 2%;
+    font-size: 25px;
+    font-family: "shabnam";
+    
+  }
+  .icon-Success{
+    background-color: rgb(4, 110, 4);
+    border-radius: 50%;
+    padding-right: 0.5%;
+    padding-top: 1%;
+    color: white;
+  }
+  .div_loading{
+    display: none;
+    width: 50%;
+    text-align: center;
+    background-color: #b3812c;
+    height: auto;
+    position: fixed;
+    right: 22%;
+    top: 30%;
+    border-radius: 30px;
+    z-index: 3;
+    border: 5px solid #e0ba77;
+    -webkit-animation: div-input 0.6s;
+    -moz-animation: div-input 0.6s;
+    -o-animation: div-input 0.6s;
+    -ms-animation: div-input 0.6s;
+  }
+   .input-name-div{
+    display: none;
+    width: 50%;
+    text-align: center;
+    background-color: #b3812c;
+    height: auto;
+    position: fixed;
+    right: 22%;
+    top: 30%;
+    border-radius: 30px;
+    z-index: 3;
+    border: 5px solid #e0ba77;
+    -webkit-animation: div-input 0.6s;
+    -moz-animation: div-input 0.6s;
+    -o-animation: div-input 0.6s;
+    -ms-animation: div-input 0.6s;
+  }
+  @keyframes div-input {
+    0%{
+      transform: scale(0);
+    }
+    50%{
+      transform: scale(1.2);
+     }
+  }
+  .message-input-name{
+    text-align: center;
+    font-family: "shabnam";
+    margin-top: 3%;
+  } 
+  .input-name{
+  width: 40%;
+  height: 40px;
+  background-color: #765827;
+  border: 1px solid #765827;
+  border-radius: 5px;
+  color: white;
+  font-family: "vazir";
+  transition: 0.2s;
+  margin-top: 1%;
+  }
+  .input-name:focus{
+    transition: 0.2s;
+    background-color: #b88939;
+     outline: none;
+     border: solid 1px rgb(189, 189, 189);
+  }
+  .input-name::placeholder{
+    font-family: "vazir";
+    color: white;
+    opacity: 0.4; 
+    padding-right: 3%;
+  
+  }
+  
+  
+  .input-submit{
+    font-family: "shabnam";
+    margin-top: 1%;
+    width: 40%;
+    height: 40px;
+    background-color: rgb(87, 64, 28);
+    border: 1px solid #57401c; 
+    border-radius: 10px;
+    color: rgb(207, 198, 198);
+    transition: 0.3s;
+    margin-bottom: 2%;
+  }
+  
+  .input-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: inset -10.5em 0 0 0 #35250a , inset 10.5em 0 0 0 #35250a;
+    border: solid 1px #945e00;
+  }
+  
+  .spinner{ 
+    margin-top: 5%;
+  }
+  .div-gray{
+    display: none;
+    background-color: rgba(78, 78, 78, 0.9);
+    width: 100%;
+    height: calc(100%);
+    position: fixed;
+    z-index: 3;
+    -webkit-animation: div-gray 1s ;
+    -o-animation: div-gray 1s ;
+    -ms-animation: div-gray 1s ;
+    -moz-animation: div-gray 1s ;
+  }
+  .p-loading{
+    font-family: "shabnam";
+    font-size: 26px;
+  }
+  .alert-p-showname{
+    display: none;
+    margin-top: 1%;
+    color: rgb(143, 13, 13);
+    font-family: "shabnam";
+    -webkit-animation: alert-p-showname 0.5s ;
+    -o-animation: alert-p-showname 0.5s ;
+    -moz-animation: alert-p-showname 0.5s ;
+    -ms-animation: alert-p-showname 0.5s ;
+
+
+  }
+  @keyframes alert-p-showname {
+    0%{
+      transform: scale(0);
+    }
+    50%{
+      transform: scale(1.2);
+     }
+  }
+  @keyframes div-gray {
+    1%{
+      opacity: 0.3;
+    }
+    50%{
+        opacity: 0.9;
+    }
+  }
+  
+/*  end CSS code div-input-name and show gray back */
+  
+  /* start code CSS welcome message */
+  .welcome-message-div-blur{
+    filter: blur(5px);
+  }
+  .welcome-message-div{
+    width: auto;
+    background-color: #b3812c;
+    height: auto;
+    
+  }
+  .welcome-message-div p{
+    text-align: center;
+    font-family: "shabnam";
+  }
+/*  end CSS code div-input-name and show gray back */
+/* Start CSS code media query */
+@media screen and (min-width: 800px) and (max-width: 1000px){
+.input-name{
+  width: 70%;
+  margin-right: 13%;
+}
+
+.input-name{
+  margin-right: 2%;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+  .div-center{
+    margin-top: 740px;
+    margin-right: 2%;
+    width: 95%;
+  }
+  .div-right{
+    width: 95%;
+    margin-right: 2%;
+  }
+  .nav-links li a{
+    font-size: 13px;
+  }
+
+  .div-copyright{
+    font-size: 14.5px;
+  }
+  
+  .alert-p-showname{
+    right: 30%;
+  }
+  
+  .message-input-name{
+    font-size: 18px;
+  }
+  .input-name{
+    width: 80%;
+  }
+  .input-name-div{
+    width: 95%;
+    margin-right: -20%;
+  }
+  .input-name-div-demo-ver1{
+    width: 95%;
+    height: auto;
+    margin-right: -20%;
+  }
+  .Success-p{
+    font-size: 30px;
+  }
+  .icon-Success{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 505px) and (max-width: 600px){
+  .div-center{
+    margin-top: 740px;
+    margin-right: 2%;
+    width: 95%;
+  }
+  .div-right{
+    width: 95%;
+    margin-right: 2%;
+  }
+  .nav-links li a{
+    font-size: 9px;
+  }
+  
+  .div-copyright{
+    font-size: 14.5px;
+  }
+  .alert-p-showname{
+    right: 30%;
+  }
+  
+  .message-input-name{
+    font-size: 18px;
+  }
+  .input-name{
+    width: 80%;
+  }
+  .input-name-div{
+    width: 95%;
+    margin-right: -20%;
+  }
+  .input-name-div-demo-ver1{
+    width: 95%;
+    height: auto;
+    margin-right: -20%;
+  }
+  .Success-p{
+    font-size: 30px;
+  }
+  .icon-Success{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 504px){
+  .div_loading{
+    width: 99%;
+    margin-right: -21%;
+  }
+  .div-center p{
+    font-size: 0.8em !important;
+  }
+  .div-center{
+    margin-top: 700px;
+    margin-right: 2%;
+
+    width: 95%;
+  }
+  .div-right{
+    width: 95%;
+    margin-right: 2%;
+  }
+  
+  
+  .div-copyright{
+    font-size: 9px;
+  }
+
+.nav{
+  position: static !important;
+  background-color: #aa946e !important;
+  display: block;
+  margin-bottom: 5%;
+}
+.headercanvas-text{
+  color: red;
+}
+.text-menu{
+  font-family: "shabnam";
+}
+.bodyofcanvas{
+  background-color: #83632c !important;
+  text-align: center;
+
+}
+.headercanvas{
+  background-color: #83632c !important;
+
+}
+.a-skill{
+  color: black;
+  text-decoration: none;
+  font-family: "vazir";
+  font-size: 20px;
+}
+.a-contactus{
+  color: black;
+  text-decoration: none;
+  font-family: "vazir";
+  font-size: 20px;
+}
+.a-telegram{
+  color: black;
+  text-decoration: none;
+  font-family: "vazir";
+  font-size: 20px;
+}
+.a-instagram{
+  color: black;
+  text-decoration: none;
+  font-family: "vazir";
+  font-size: 20px;
+}
+.li-skill{
+  background-color: #af7d25 !important;
+  margin-bottom: 3%;
+  border-radius: 20px;
+}
+.li-contactus{
+  background-color: #af7d25 !important;
+  margin-bottom: 3%;
+  border-radius: 20px;
+
+}
+.li-telegram{
+  background-color: #af7d25 !important;
+  margin-bottom: 3%;
+  border-radius: 20px;
+
+}
+.li-instagram{
+  background-color: #af7d25 !important;
+  margin-bottom: 3%;
+  border-radius: 20px;
+
+}
+.nav-links{
+  display: none;
+}
+
+.input-name-div{
+  width: 95%;
+  margin-right: -20%;
+}
+.message-input-name{
+  font-size: 13px;
+  
+  
+}
+.input-name{
+  width: 80%;
+  margin-right: 1%;
+}
+.input-submit{
+  margin-top: 2%;
+}
+
+.p-loading{
+  font-size: 15px;
+}
+
+.input-name-div-demo-ver1{
+  width: 95%;
+  height: auto;
+  margin-right: -20%;
+}
+.Success-p{
+  font-size: 25px;
+  padding-top: 5%;
+}
+.icon-Success{
+  width: 30px;
+  height: 30px;
+}
+.Work-samples{
+  font-size: 0.8em ;
+}
+.onlinecinema_caption{
+  font-size: 0.5em !important;
+}
+}
+/* End CSS code media query */
