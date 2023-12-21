@@ -120,13 +120,13 @@
 }
 .h5_skill{
   font-family: "shabnam";
+  color: rgb(216, 216, 216);
   padding-top: 2%;
   text-align: center;
-  text-shadow: 1px 1px 30px black;
 }
 
 .txt-all-progress{
-  color: black !important;
+  color: rgb(216, 216, 216) !important;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   background-color: #463417 !important;
