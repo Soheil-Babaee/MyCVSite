@@ -250,43 +250,6 @@ color: rgb(179, 21, 21);
    
   }
   
-  /* .lightbox-div-demo{
-    display: none;
-  } */
-  .lightbox-div{
-    background-color: rgba(78, 78, 78,0.9);
-    width: 100%;
-    height: calc(100%);
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 3;
-    -webkit-animation: lightbox 1s;
-    -moz-animation: lightbox 1s;
-        -ms-animation: lightbox 1s;
-        -o-animation: lightbox 1s;
-
-  }
-  @keyframes lightbox {
-    1%{
-      transform: scaleX(0);
-    }
-    100%{
-      transform: scaleX(1);
-    }
-  }
-  .cloes-btn-class{
-    margin-right: 2%;
-    margin-top: 1%;
-    background-color: red;
-    width: 10%;
-    height: 4%;
-  }
-  
-  .cv-image-lightbox-demo{
-    display: none;
-
-  }
 /* end code CSS div-center */
 
 
@@ -479,8 +442,16 @@ color: rgb(179, 21, 21);
     -o-animation: alert-p-showname 0.5s ;
     -moz-animation: alert-p-showname 0.5s ;
     -ms-animation: alert-p-showname 0.5s ;
-
-
+  }
+  .alert-p-charecter{
+    display: none;
+    margin-top: 1%;
+    color: rgb(143, 13, 13);
+    font-family: "shabnam";
+    -webkit-animation: alert-p-showname 0.5s ;
+    -o-animation: alert-p-showname 0.5s ;
+    -moz-animation: alert-p-showname 0.5s ;
+    -ms-animation: alert-p-showname 0.5s ;
   }
   @keyframes alert-p-showname {
     0%{
@@ -718,7 +689,7 @@ color: rgb(179, 21, 21);
   margin-right: -20%;
 }
 .message-input-name{
-  font-size: 13px;
+  font-size: 10px;
   
   
 }

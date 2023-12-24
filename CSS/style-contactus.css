@@ -66,7 +66,7 @@ body{
   .nav-links li{
   list-style: none;
   margin: 0 12px;
-  padding-right: 50px;
+  padding-right: 50.1px;
   
   }
   .nav-links li a{
@@ -195,12 +195,11 @@ body{
 
 /* start code CSS form */
 .login-box {
-  position: absolute;
-  top: 20%;
-  left: 30%;
+  margin-right: 30%;
+  margin-top: 3%;
+  margin-bottom: 2%;
   width: 40%;
   padding: 40px;
-  /* transform: translate(-50%, -50%); */
   background: rgb(100, 73, 25);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
@@ -262,7 +261,7 @@ body{
   border: none;
   font-size: 16px;
   text-transform: uppercase;
-  transition: 0.5s;
+  transition: 0.3s;
   margin-top: 10px;
   cursor: pointer;
   font-family: "vazir";
@@ -454,7 +453,7 @@ form{
   }
   .login-box{
     width: 95%;
-    left: 2%;
+    margin-right: 2%;
 
  }
  .div_alert{
@@ -560,7 +559,7 @@ form{
   }
   .login-box{
      width: 95%;
-     left: 2%;
+     margin-right: 2%;
 
   }
   .alert_p{
