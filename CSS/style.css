@@ -419,7 +419,7 @@ color: rgb(179, 21, 21);
   }
   .div-gray{
     display: none;
-    background-color: rgba(78, 78, 78, 0.9);
+    background-color: rgba(78, 78, 78,0.99);
     width: 100%;
     height: calc(100%);
     position: fixed;

@@ -80,10 +80,10 @@
                               $("#loading-div-id-ver1").show();
                          },4000)
             }else{
-                $(".div_alert").show("slow");
+                $(".div_alert").fadeIn();
                 
                 setTimeout( function() {
-                    $(".div_alert").hide("slow");
+                    $(".div_alert").fadeOut();
                 }, 5000);
                 return false;
             }
